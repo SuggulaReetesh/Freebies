@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 
 
-handler404 = 'app.views.redirectPNF'
 
 urlpatterns = [
     path('admin/', admin.site.urls),

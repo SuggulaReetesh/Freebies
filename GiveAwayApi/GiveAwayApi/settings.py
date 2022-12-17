@@ -89,7 +89,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT':{
-            "host":"mongodb+srv://GiveAway:8HNssMxRp1NwBW6F@cluster0.qeozbn3.mongodb.net/?retryWrites=true&w=majority",
+            "host":"mongodb+srv://GiveAway:8HNssMxRp1NwBW6F@cluster0.ptrrpme.mongodb.net/?retryWrites=true&w=majority",
             "name":"GiveAway",
             "authMechanism": "SCRAM-SHA-1" # for atlas db connection;
         }
